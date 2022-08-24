@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;;
+    background: #F55A5A;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 1.35em;
+}
+
+.fa-earth-americas {
+    font-size: 1.5rem;
+    margin-right: 0.2em;
+}
+
+.card {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    padding: 4em 4em 2em 4em;
+}
+
+.card--image {
+    width: 200px;
+    max-height: 180px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+}
+
+.card--info_location {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    margin: 0em 1em 0em 0.2em;
+    color: #2B283A;
+}
+
+a {
+    font-size: 0.8rem;
+    color: #918E9B;
+}
+
+.card--info_title {
+    margin-top: 0.2em;
+    font-size: 1.8rem;
+}
+
+.card--info_dates {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    color: #2B283A;
+    font-size: 0.9rem;
+}
